@@ -13,8 +13,8 @@ console.log(lines)
 const leftArray:number[] = []
 const rightArray:number[] = []
 let sum = 0
-// use for each loop to iterate through each [""] in lines and Number-ify and add to left/right arr
 
+// use for each loop to iterate through each [""] in lines and Number-ify and add to left/right arr
 lines.forEach(element => {
     const splitLine = element.split("   ")
     leftArray.push(Number(splitLine[0]))
